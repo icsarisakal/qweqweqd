@@ -1,0 +1,33 @@
+<?Php
+$tbl='personel';
+$syf='personel';
+$_Yetki=Array(
+	//'musterisiparis'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'iplikno'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'ipliksiparis'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'iplikstok'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'kumas'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'cozgustok'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'dokumastok'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'hambezstok'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'boyatakip'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'mamulbezstok'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'ilmar'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'firma'=>array('listele'=>1,'ekle'=>1,'duzenle'=>1),
+	//'destek'=>array('listele'=>1),
+	//'personel'=>array('listele'=>1),
+	//'nesne'=>array('listele'=>1),
+	//'notlar'=>array('listele'=>1),
+);
+$_ArsivHaric=array('iplikgiriscikis','hambezstok','ceki','stok','mamul','personel','nesne');
+/*$_NSN=array(
+'musteri'=>array(
+	'ad'=>'MÜŞTERİ',
+	'alan'=>'metin1,metin2',
+	'alan2'=>array('metin1'=>'Ad','metin2'=>'Soyad')),
+'sebebi'=>array(
+	'ad'=>'SEBEBİ',
+	'alan'=>'metin1',
+	'alan2'=>array('metin1'=>'Ad')),
+);*/
+?>

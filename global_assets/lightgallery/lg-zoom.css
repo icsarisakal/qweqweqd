@@ -1,0 +1,20 @@
+#lg-zoom-in:after {
+    content: "\e311";
+}
+#lg-actual-size {
+    font-size: 20px;
+}
+#lg-actual-size:after {
+    content: "\e033";
+}
+#lg-zoom-out {
+    opacity: 0.5;
+    pointer-events: none;
+}
+#lg-zoom-out:after {
+    content: "\e312";
+}
+.lg-zoomed #lg-zoom-out {
+    opacity: 1;
+    pointer-events: auto;
+}

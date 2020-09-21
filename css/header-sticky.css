@@ -1,0 +1,8 @@
+/*
+.menu{ position: fixed; top: 0; left: 0; right: 0; z-index: 3; }
+.altMenu{ position: fixed; top:40px; left: 0; right: 0; z-index: 3; }
+.indirMenu{ position: fixed; top:40px; right: 0; z-index: 4; }
+body{ margin-top: 65px; }
+.sticky-table.sticky-active{  }
+.sticky-table.sticky-active thead{ position: fixed; left: 0; right: 0; }
+*/

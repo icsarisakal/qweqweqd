@@ -1,0 +1,7 @@
+	$alici = $kime;
+		$subject = $konu;
+		$message = $icerik;
+		$pName='Çað Tekstil';
+		$rplyEmail='info@gulcocukevi.com.tr';
+
+		require(__DIR__.'/../../smtp-gonderici/manuel-gonderim.php');

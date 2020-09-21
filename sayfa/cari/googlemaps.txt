@@ -1,0 +1,24 @@
+cari
+duzenle.php / 18 - 43 satılar arası
+ekle.php / 34 - 50 satırlar arası
+ekle_prc.php / 90-112 satırlar arası
+listele.php / 10-21 satırlar arası
+
+cari tablosunda 
+map_ID int(11) NULL Boş Olabilir 
+alanı eklendi
+(Şimdilik kullanmıyoruz eklenmesede olur)
+
+map tablosu oluşturulacak
+(.sql dosyası cari klasöründe)
+map.js , map-2.js , map-list 
+dosyaları yüklendi(cari klasöründe)
+
+ayar.php
+82.satır map-list olarak değiştirildi.
+866.satır map-list olarak değiştirildi
+1128-1232 satır arası menü eklendi.
+
+not:
+map-2.js 173-174. satırlarda web adresi
+girildi. (https://cloud.kayteks.com/)

@@ -1,0 +1,1 @@
+<?Php session_start();ob_start();require(__DIR__.'/../ayar.php');echo kur(z(9,'fiyat'),z(9,'bunu',$pbT),z(9,'buna',$pbT),z(9,'tarih',z('date')));ob_end_flush()?>

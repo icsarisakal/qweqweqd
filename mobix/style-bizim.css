@@ -1,0 +1,54 @@
+.swiper-wrapper .bilgi-baslik{
+  font-size: 24px;
+  text-align: left;
+  text-indent: 30px;
+  margin-bottom:10px;
+  color: white;
+}
+.swiper-wrapper .bilgi-maddesi, .swiper-wrapper .bilgi-maddesi-2{
+  display: block;
+  margin: 8px 26px 0 50px;
+}
+.swiper-wrapper .bilgi-maddesi a.bilgi-a, .swiper-wrapper .bilgi-maddesi-2 a.bilgi-a{
+  display: block;
+  text-align: left;
+  padding: 10px;
+  color: white; 
+  background-color: rgba(255,255,255,0.14);
+  border-radius: 18px;
+}
+.swiper-wrapper .bilgi-maddesi a.bilgi-a:active, .swiper-wrapper .bilgi-maddesi-2 a.bilgi-a:active{
+  background-color: rgba(255,255,255,0.24);
+}
+.swiper-wrapper .bilgi-maddesi-2{
+  margin: 8px 26px 0 26px;
+}
+/*/
+b{ font-weight: bolder; }
+/*/
+
+.jstarih{
+  text-indent:0px !important;
+  background-color: white !important;
+  background-size: contain !important;
+  background: none !important;
+}
+
+.contactform select.form_input {
+    padding: 1.6%;
+    width: 100%;
+    margin:  0;
+    border: 0;
+}
+
+
+.notification-item{
+  margin-top:200px;
+}
+
+
+.cs-optgroup > span{
+  background-image: none !important;
+  font-weight: bold;
+  color:#333;
+}

@@ -1,0 +1,12 @@
+<?php 
+$_Sec=z(7,'sec');
+if(!empty($_Sec)){
+	z(12,'ceki_topluetiket',$_Sec);
+	z(33,'ceki_topluetiket',2);
+	z('git','topluetiket.php');
+}
+else{
+	z(33,'ceki_topluetiket',3);
+	z('git','geri');
+}
+?>

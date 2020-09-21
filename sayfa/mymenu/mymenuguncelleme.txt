@@ -1,0 +1,16 @@
+﻿#mymenu modülü 
+#ayar.php içerisindeki değişiklikler
+
+
+
+------------06.08.2020--------fix----
+
+
+-> mymenu modülünde yeni kayıtta listenin secili gelmesi hatası fixlendi.
+-> mymenu tablosu içi komple sıfırlandı (temizlendi).
+-> mymenu tablosunda ilk kayıtta giriş yaparken personel_ID null kayıt etme problemi çözüldü.
+
+güncellenen dosyalar
+mymenu > listele_prc.php
+www > index-normal.php
+

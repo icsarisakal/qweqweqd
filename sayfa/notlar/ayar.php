@@ -1,0 +1,13 @@
+<?Php
+$tbl='notlar';
+/*$_NSN=array(
+'musteri'=>array(
+	'ad'=>'MÜŞTERİ',
+	'alan'=>'metin1,metin2',
+	'alan2'=>array('metin1'=>'Ad','metin2'=>'Soyad')),
+'sebebi'=>array(
+	'ad'=>'SEBEBİ',
+	'alan'=>'metin1',
+	'alan2'=>array('metin1'=>'Ad')),
+);*/
+?>

@@ -1,0 +1,32 @@
+server {
+    listen 80;
+    server_name crm.hncakillitahta.com hnc.ng.zertel.net;
+    index index.html index.htm index.php;
+
+    root /var/www/siteler/crm.hncakillitahta.com;
+
+    client_max_body_size 200M;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+
+        # Unix soket kullanmiyoruz.
+        fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+        # fastcgi_pass 127.0.0.1:9000;
+
+        fastcgi_connect_timeout 300s;
+        fastcgi_send_timeout 300s;
+        fastcgi_read_timeout 300s; 
+        fastcgi_buffers 16 16k; 
+        fastcgi_buffer_size 32k;
+
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}

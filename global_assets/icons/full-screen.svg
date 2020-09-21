@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<path style="fill:#E7E9FB;" d="M40,40h128V8H8v160h32V40z" data-original="#E7E9FB" class=""/>
+	<path style="fill:#E7E9FB;" d="M312,40h128v128h32V8H312V40z" data-original="#E7E9FB" class=""/>
+	<path style="fill:#E7E9FB;" d="M168,440H40V312H8v160h160V440z" data-original="#E7E9FB" class=""/>
+	<path style="fill:#E7E9FB;" d="M440,440H312v32h160V312h-32V440z" data-original="#E7E9FB" class=""/>
+</g><g>
+	<path style="fill:#1273EB" d="M48,176H0V0h176v48H48V176z M16,160h16V32h128V16H16V160z" data-original="#231F20" class="active-path" data-old_color="#231F20"/>
+	<path style="fill:#1273EB" d="M480,176h-48V48H304V0h176V176z M448,160h16V16H320v16h128V160z" data-original="#231F20" class="active-path" data-old_color="#231F20"/>
+	<path style="fill:#1273EB" d="M176,480H0V304h48v128h128V480z M16,464h144v-16H32V320H16V464z" data-original="#231F20" class="active-path" data-old_color="#231F20"/>
+	<path style="fill:#1273EB" d="M480,480H304v-48h128V304h48V480z M320,464h144V320h-16v128H320V464z" data-original="#231F20" class="active-path" data-old_color="#231F20"/>
+</g></g> </svg>

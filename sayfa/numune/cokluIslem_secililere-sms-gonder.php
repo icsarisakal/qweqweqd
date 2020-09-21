@@ -1,0 +1,1 @@
+cokluIslem_secililere-sms-gonder.php

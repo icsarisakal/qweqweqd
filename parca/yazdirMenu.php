@@ -1,0 +1,1 @@
+<div class="printx"><div class="indirMenu"><a href="#" title="Yazdır" onClick="window.print()"><img src="img/yazici.png" height="100%" /></a></div></div>

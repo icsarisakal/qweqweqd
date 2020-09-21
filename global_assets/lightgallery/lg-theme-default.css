@@ -1,0 +1,99 @@
+.lg-actions .lg-next, .lg-actions .lg-prev {
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    margin-top: -10px;
+    padding: 8px 10px 9px;
+    position: absolute;
+    top: 50%;
+    border: none;
+    outline: none;
+}
+.lg-actions .lg-next.disabled, .lg-actions .lg-prev.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.lg-actions .lg-next {
+    right: 20px;
+}
+.lg-actions .lg-next:before {
+    content: "\e095";
+}
+.lg-actions .lg-prev {
+    left: 20px;
+}
+.lg-actions .lg-prev:after {
+    content: "\e094";
+}
+.lg-outer.lg-right-end .lg-object {
+    position: relative;
+}
+.lg-outer.lg-left-end .lg-object {
+    position: relative;
+}
+.lg-toolbar {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.lg-toolbar .lg-icon {
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    height: 47px;
+    line-height: 27px;
+    padding: 10px 0;
+    text-align: center;
+    width: 50px;
+    text-decoration: none !important;
+    outline: medium none;
+}
+.lg-toolbar .lg-close:after {
+    content: "\e070";
+}
+.lg-toolbar .lg-download:after {
+    content: "\e0f2";
+}
+.lg-sub-html {
+    bottom: 0;
+    font-size: 16px;
+    left: 0;
+    padding: 10px 40px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+.lg-sub-html h4 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.lg-sub-html p {
+    font-size: 12px;
+    margin: 5px 0 0;
+}
+#lg-counter {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+.lg-toolbar, .lg-prev, .lg-next {
+    opacity: 1;
+}
+.lg-hide-items .lg-prev {
+    opacity: 0;
+}
+.lg-hide-items .lg-next {
+    opacity: 0;
+}
+.lg-hide-items .lg-toolbar {
+    opacity: 0;
+}
+body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object {
+    opacity: 0;
+}
+body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object {
+    opacity: 1;
+}

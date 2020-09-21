@@ -1,0 +1,33 @@
+﻿----------old-----------------
+ana ayar.php de mTip mesajlaşma eklendi
+index-normal.php de 537-635
+mesaj modülü
+modüller kısmında mesaj.php
+personel modülü izin ayarları ekle.php 277.satır duzenle.php 314.satır
+
+index-normal.php
+
+--------------güncelleme 22.07.2020-------------------
+
+index-normal.php
+mesaj>gelenkutusu.php
+mesaj>ajaxsorgu.php
+upload/kumaskartı/default_profile.png
+
+açıklama: profil resmi eklendi artık gelen kutusu ve bildirim kutusunda kişilerin profil resimleri gözüküyor
+profil resmi olmayanların ise default_profile.png adında upload/kumaskartı/ klasörüne resim atıldı oradan çekiyor...
+
+mailSmtp eklendi
+
+mail ayarları ajaxsorgu.php'nin içindedir
+
+-----------revizyon 1-----------
+
+ajaxsorgu.php 
+index-normal.php
+gelenkutusu.php
+
++ iconu artık sunucudan çekiliyor ve artık mesaj gönderilen kişinin mailine gönderim yapılıyor
+
+
+

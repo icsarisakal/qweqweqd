@@ -1,0 +1,17 @@
+﻿Ayarlarda;
+• Menü metinleri
+• Filtre th basit array 
+
+Listelede;
+• Düzenlenebilir table
+• Hem filtrede hem de liste_prc de Nesne kullanımı
+• Tüm alanların kullanımı
+• Gelişmiş filtre ajax arama
+• parca/nesne_ekle_form.php açılır penceresi ile hızlı nesne ekleme
+• ekle_prc.php ile ekleme formu ortak parçası
+• listele_prc @ işareti ile katı arama özelliği
+
+
+Menüde;
+• Toplu düzenleme butonu
+• Açılır pencere ekleme formu
